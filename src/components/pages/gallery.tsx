@@ -63,9 +63,18 @@ export const Visualizer: React.FC = () => {
         <video autoPlay src={images.wall} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
          </div>
-
-
+   <br/>
+             <b>
+        <h1 className="hlight"> AI GESTURE + COLOR SENSOR </h1>
+      </b>
     <br/>
+         <div className="projDesc">
+<div className="fadeSide">
+
+             <p>Trained an ML model to detect colors and respond to gestures using the gyroscope data on the arduino nano rev2. </p>
+</div>     
+</div>
+
         <div className="analogCircuits" >
         <video autoPlay src={images.ai} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>

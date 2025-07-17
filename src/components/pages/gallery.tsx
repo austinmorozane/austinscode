@@ -65,7 +65,7 @@ export const Visualizer: React.FC = () => {
          </div>
    <br/>
              <b>
-        <h1 className="hlight"> AI GESTURE + COLOR SENSOR </h1>
+        <h1 className="hlight"> GESTURE + RGB SENSOR </h1>
       </b>
     <br/>
          <div className="projDesc">

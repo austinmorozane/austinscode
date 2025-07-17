@@ -23,12 +23,9 @@ html {
   height: 100svh;
   overflow-x: hidden;
   overflow-y: auto;
-background: linear-gradient(to bottom,
-    #4a00e0 0%,
-    #cc5333 calc(100% - (2px / 100%) * 100%)
-  );
-  }
-
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(84, 41, 171, 1) 50%, rgba(148, 187, 233, 1) 100%);
+}
 
 
 

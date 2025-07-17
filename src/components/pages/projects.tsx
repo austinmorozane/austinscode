@@ -22,6 +22,7 @@ interface ProjectItemProps {
 
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
+
 };
 
 const projectsData: Project[] = [
@@ -32,7 +33,14 @@ const projectsData: Project[] = [
       "My website is programmed from the ground up to be mobile-first, optimized to run well on any device with an internet connection! Click the title text for a link to the source code.",
     media: [{}],
   },
+   {
+ title: "Calculator App (Flutter /C)",
+    link: "https://github.com/austinhutchen/austinscode",
+    description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
+    media: [{}],
 
+
+  }
 
  ];
 const ProjectList: React.FC = () => (

@@ -148,14 +148,15 @@ a:hover {
 .custom-navbar {
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.07);
-  border-radius: 2svw;
+  border-radius: 3svw;
   align-content: center;
   justify-content:center;
   top: 0;
   /* Position at the top */
-  animation: slideIn 0.4s cubic-bezier(.24, .51, .8, .94) ;
+  animation: slideIn 0.26s cubic-bezier(.24, .51, .8, .94) both;
+  z-index: 1000;
   /* Ensure the navbar is above other elements */
-  width: min-content ;
+  width: min-content !important;
 }
 
 .clickIcon {
@@ -166,9 +167,9 @@ a:hover {
 
 
   .navBrand {
-    font-size: 1.7em;
+    font-size: 1.4em;
     /* Reduce the font size */
-   max-width: 40svw;
+   max-width: 36svw;
    
   }
 

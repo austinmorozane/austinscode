@@ -26,7 +26,7 @@ h3 {
 
 
 .intro {
-  margin-top: 0.3em;
+  margin-top: 0.6em;
   color: #F3ECEC;
   /* Lighter color for better contrast against purple */
   /* Use rem units for your font sizes */
@@ -40,9 +40,9 @@ h3 {
 
 .intro h2,
 h3 {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   font-kerning: normal;
-  max-width: 91%;
+  max-width: 100%;
   margin: 0 auto;
   justify-content: center;
 }

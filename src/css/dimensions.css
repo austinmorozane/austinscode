@@ -40,8 +40,8 @@ html.has-scroll-smooth {
   border-radius: 1vw;
   /* Adjusted border width unit */
   margin: 0;
-   max-height: 48svh;
-max-width:49svw;
+   max-height: 50svh;
+max-width: 50svw;
   /* Remove default margin */
   padding: 0;
 }

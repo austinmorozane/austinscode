@@ -15,8 +15,8 @@ export const NavBar: React.FC = () => {
   const transistor = `${url}/fast_imgs/transistor.webp`;
   const software = `${url}/fast_imgs/sWare.png`;
   const lotus = `${url}/fast_imgs/lotus.png`;
-  const icon_height = '33svh';
-  const icon_width = '33svw';
+  const icon_height = '32svh';
+  const icon_width = '32svw';
   const toggle = () => {
     setIsOpen(!navOpen);
   }
@@ -71,19 +71,19 @@ export const NavBar: React.FC = () => {
               <h3>About</h3>
             </Button>
           </NavItem>
-   
+      <NavItem className="nav-item  justify-center items-center">
+            <Button style={{ backgroundColor:'rgba(255, 0, 0, 0.5)',border: '1px solid gold', borderRadius:'1.3svw'  }} onClick={() => nav('/Projects')}>
+              <img  src={software} width={icon_width} height={icon_height} alt="projects" />
+              <h3>Software</h3>
+            </Button>
+          </NavItem>
               <NavItem className="nav-item  justify-center items-center">
             <Button style={{backgroundColor:'rgba(255, 0, 0, 0.5)', border: '1px solid gold', borderRadius:'1.3svw'  }} onClick={() => nav('/Gallery')}>
               <img src={transistor} width={icon_width} height={icon_height} alt="cube" />
               <h3>Projects</h3>
             </Button>
           </NavItem>
-               <NavItem className="nav-item  justify-center items-center">
-            <Button style={{ backgroundColor:'rgba(255, 0, 0, 0.5)',border: '1px solid gold', borderRadius:'1.3svw'  }} onClick={() => nav('/Projects')}>
-              <img  src={software} width={icon_width} height={icon_height} alt="projects" />
-              <h3>Software</h3>
-            </Button>
-          </NavItem>
+            
          
           <NavItem className="nav-item  justify-center items-center">
             <Button style={{ backgroundColor:'rgba(255,0,0,0.4)',border: '1px solid white' , borderRadius:'1.3svw' }}>

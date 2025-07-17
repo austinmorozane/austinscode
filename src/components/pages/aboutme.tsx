@@ -19,7 +19,7 @@ const keys = [
 
  
   {
-    desc: "I love soldering! It has allowed me to create my own PCBS, and build embedded systems with common and recycled parts.",
+    desc: "Learning to solder allowed me to assemble my own PCBS, and build embedded systems with minimal parts (wires, resistors, capacitors, etc..)",
     url: images.solder,
     type: "video",
     link: ""
@@ -27,7 +27,7 @@ const keys = [
 
 
   {
-    desc: "I also spend time building systems to automate daily tasks. I use recycled e-waste for some project materials to save the planet, and implement scripts with C.",
+    desc: "I use recycled e-waste for some project materials, and implement scripts with C.",
     url: images.systems,
     type: "image"
   },
@@ -112,7 +112,6 @@ return (
                 playsInline
                 onContextMenu={(e) => e.preventDefault()}
                 src={data.url}
-                preload= {"metadata"}
               />
             )}
 

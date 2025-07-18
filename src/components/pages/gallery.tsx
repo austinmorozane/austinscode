@@ -70,7 +70,7 @@ export const Visualizer: React.FC = () => {
          <div className="projDesc">
 <div className="fadeSide">
 
-             <p>Trained an ML model to detect colors and respond to gestures using the gyroscope data on the arduino nano rev2. </p>
+             <p>Trained an ML model to detect colors and respond to gestures using the 3-axis gyroscope sensor of the IMU system on the Arduino Nano 33 BLE Sense Rev2 </p>
 </div>     
 </div>
 

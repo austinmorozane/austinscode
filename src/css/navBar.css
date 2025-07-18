@@ -153,7 +153,7 @@ a:hover {
   justify-content:center;
   top: 0;
   /* Position at the top */
-  animation: slideIn 0.26s cubic-bezier(.24, .51, .8, .94) both;
+  animation: slideIn 0.5s cubic-bezier(.24, .51, .8, .94) both;
   z-index: 1000;
   /* Ensure the navbar is above other elements */
   width: min-content !important;

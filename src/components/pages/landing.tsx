@@ -85,7 +85,7 @@ export const Landing: React.FC = () => {
 
           <div className="intro">
               <h2>
-              As a tinker and ⚧️ <a href="https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science" rel="noopener noreferrer">Computer Science student (BSc 2027)</a>, I enjoy software development, building electronic circuits, IoT systems, and reading mathematics. I’ve also taught Calculus 2 through the <a href="https://www.colorado.edu/program/learningassistant/">Learning Assistant Program  </a> at the University of Colorado Boulder. Most recently, I personally developed a proprietary
+              As a ⚧️ <a href="https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science" rel="noopener noreferrer">Computer Science student (BSc 2027)</a> and tinker, I enjoy software development, building electronic circuits, IoT systems, and reading mathematics. I’ve also taught Calculus 2 through the <a href="https://www.colorado.edu/program/learningassistant/">Learning Assistant Program  </a> at the University of Colorado Boulder. Most recently, I personally developed a proprietary
               <a href="https://modbus.org/docs/Modbus_over_serial_line_V1.pdf"> ModBus C#  </a> implementation for <a href="https://www.formfactor.com"> FormFactor Boulder </a>, a cryogenic quantum computing solutions company. Proficient in TypeScript, C#, React Native, and C++, <a> I actively contribute to emerging open-source projects.</a>
             </h2>
           </div>

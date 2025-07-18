@@ -22,7 +22,7 @@ interface ProjectItemProps {
 
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
-
+calculator: getImgPath('calculator.webp'),
 };
 
 const projectsData: Project[] = [
@@ -30,16 +30,14 @@ const projectsData: Project[] = [
     title: "This Website (Typescript)",
     link: "https://github.com/austinhutchen/austinscode",
     description:
-      "My website is programmed from the ground up to be mobile-first, optimized to run well on any device with an internet connection! Click the title text for a link to the source code.",
+      "This website is programmed from the ground up to be mobile-first, optimized to run well on any device with an internet connection! Click the title text for a link to the source code.",
     media: [{}],
   },
    {
  title: "Calculator App (Flutter /C)",
     link: "https://github.com/austinmorozane/qwikCalculator",
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
-    media: [{}],
-
-
+       media: [images.calculator],
   }
 
  ];

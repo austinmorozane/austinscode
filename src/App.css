@@ -45,7 +45,6 @@ background: conic-gradient(from 90deg, rgba(7, 68, 74, 1.000) 0.000deg, rgba(28,
 .animateLand {
   animation: fadeSide 1.1s ease-in-out forwards;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-
 }
 
 .projDesc {

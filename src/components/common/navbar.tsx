@@ -15,8 +15,8 @@ export const NavBar: React.FC = () => {
   const transistor = `${url}/fast_imgs/transistor.webp`;
   const software = `${url}/fast_imgs/sWare.png`;
   const lotus = `${url}/fast_imgs/lotus.png`;
-  const icon_height = '32svh';
-  const icon_width = '32svw';
+  const icon_height = '34svh';
+  const icon_width = '34svw';
   const toggle = () => {
     setIsOpen(!navOpen);
   }

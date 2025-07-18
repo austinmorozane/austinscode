@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavBar } from "../common/navbar";
+import { Document } from "react-pdf";
 const rec_letter = `${process.env.PUBLIC_URL}/fast_imgs/REC_LETTER.webp`;
 
 const inclusion = `${process.env.PUBLIC_URL}/fast_imgs/inclusion.webp`;

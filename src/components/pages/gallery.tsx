@@ -7,7 +7,7 @@ export const Visualizer: React.FC = () => {
   const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
   type Images = Record<string, string>;
   const images: Images = {
-    bipolaroutput: getImgPath('bipolarPSUoutput.webp'),
+    bipolaroutput: getImgPath('bpPSU.webp'),
     transformer: getImgPath('IMG_4393.webp'),
     volts: getImgPath('DCvoltage.webp'),
     schematic: getImgPath('IMG_4052.webp'),

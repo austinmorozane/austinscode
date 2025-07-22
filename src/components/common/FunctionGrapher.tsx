@@ -64,29 +64,7 @@ export const FunctionGrapher: React.FC = () => {
     setZValues(data);
   };
 
-  const drawTinkerbell = (): void => {
-    const a = 0.9,
-      b = -0.6013,
-      c = 2.0,
-      d = 0.5;
-    let x = 0.1,
-      y = 0.0;
-    const xs: number[] = [];
-    const ys: number[] = [];
 
-    for (let i = 0; i < 10000; i++) {
-      const xNew = x * x - y * y + a * x + b * y;
-      const yNew = 2 * x * y + c * x + d * y;
-      x = xNew;
-      y = yNew;
-      xs.push(x);
-      ys.push(y);
-    }
-
-    setXValues(xs);
-    setYValues(ys);
-    setZValues([]);
-  };
 
   const handleSubmit = (e: React.FormEvent): void => {
     e.preventDefault();
@@ -94,9 +72,7 @@ export const FunctionGrapher: React.FC = () => {
       drawFunction(expression);
     } else if (mode === "mandelbrot") {
       drawMandelbrot();
-    } else if (mode === "tinkerbell") {
-      drawTinkerbell();
-    }
+    } 
   };
 
   return (
@@ -127,7 +103,6 @@ export const FunctionGrapher: React.FC = () => {
             <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>
               <option value="function">Function</option>
               <option value="mandelbrot">Mandelbrot Set</option>
-              <option value="tinkerbell">Tinkerbell Attractor</option>
             </select>
           </label>{" "}
           <br />

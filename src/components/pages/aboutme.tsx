@@ -21,30 +21,23 @@ const keys = [
   {
     desc: "I love soldering! It has allowed me to create my own PCBS, and build embedded systems with common and recycled parts.",
     url: images.solder,
-    type: "video",
-    link: ""
+    type: "video"
   },
 
-
   {
-    desc: "I also spend time building systems to automate daily tasks. I use recycled e-waste for some project materials to save the planet, and implement scripts with C.",
+    desc: "I also spend time building circuits for daily tasks. I use recycled e-waste for some project materials, and implement scripts with C.",
     url: images.systems,
     type: "image"
   },
 
   {
-    desc: "I like to read mathematics from my collected library in my free time. I have particular interest in Calculus, and Set Theory.",
+    desc: "I like to read mathematics from my collected library often. I have particular interest in Calculus, Linear Algebra, and Set Theory.",
     url: images.math,
-    type: "image"
-  },
-   {
-    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. I could relax with them forever. ",
-    url: images.mimi,
     type: "image"
   },
 
   {
-    desc: "I enjoy spending time out in nature!",
+    desc: "I love to spend time out in nature!",
     url: images.nature,
     type: "image"
   }

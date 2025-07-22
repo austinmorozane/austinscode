@@ -15,8 +15,8 @@ export const NavBar: React.FC = () => {
   const transistor = `${url}/fast_imgs/transistor.webp`;
   const software = `${url}/fast_imgs/sWare.png`;
   const lotus = `${url}/fast_imgs/lotus.png`;
-  const icon_height = '34svh';
-  const icon_width = '34svw';
+  const icon_height = '40vh';
+  const icon_width = '40vw';
   const toggle = () => {
     setIsOpen(!navOpen);
   }
@@ -89,7 +89,7 @@ export const NavBar: React.FC = () => {
             <Button style={{ backgroundColor:'rgba(255,0,0,0.4)',border: '1px solid white' , borderRadius:'1.3svw' }}>
               <a href="https://github.com/austinmorozane" target="_blank" rel="noopener noreferrer">
                 <img src={github} width={icon_width} height={icon_height} alt="GitHub" />
-                <h3>Source</h3>
+                <h3>Programs</h3>
               </a>
             </Button>
           </NavItem>

@@ -132,16 +132,6 @@ export const FunctionGrapher: React.FC = () => {
                     marker: { color: "blue" },
                   },
                 ]
-              : mode === "tinkerbell"
-              ? [
-                  {
-                    x: xValues,
-                    y: yValues,
-                    type: "scatter",
-                    mode: "markers",
-                    marker: { color: "purple", size: 1 },
-                  },
-                ]
               : [
                   {
                     z: zValues,
@@ -157,11 +147,11 @@ export const FunctionGrapher: React.FC = () => {
                 ? `Plot of f(x) = ${expression}`
                 : mode === "mandelbrot"
                 ? "Mandelbrot Set"
-                : "Tinkerbell Attractor",
+                : " ",
             xaxis: { title: mode === "function" ? "x" : undefined },
             yaxis: { title: mode === "function" ? "f(x)" : undefined },
           }}
-          style={{ width: "75svw", height: "55svh" }}
+          style={{ width: "80svw", height: "60svh" }}
         />
       </div>
     </>

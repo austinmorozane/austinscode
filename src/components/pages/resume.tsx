@@ -69,12 +69,7 @@ export const Resume: React.FC = () => (
                 ))}
             </ul>
 
-            <SectionHeader title="VOLUNTEER WORK" italic />
-            <ContributionLink
-                href="https://github.com/twitter/the-algorithm/issues/162"
-                title="TWITTER ALGORITHM OPTIMIZATIONS"
-                description="Optimized the X algorithm for floating-point parallelism."
-            />
+         
    
             <Feedback />
         </div>

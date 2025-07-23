@@ -17,7 +17,6 @@ export const Visualizer: React.FC = () => {
     waterer: getImgPath('PLANT_KERNEL.mp4'),
     wall : getImgPath('WLED2.mp4'),
     ai: getImgPath('nano2.mp4')
-    // Add other images here
   };
 
   return (

@@ -19,7 +19,7 @@ const keys = [
 
  
   {
-    desc: "I love soldering! It has allowed me to create my own PCBS, and build embedded systems with common and recycled parts.",
+    desc: "Soldering has allowed me to create my own circuits, and build embedded systems with common and recycled parts.",
     url: images.solder,
     type: "video",
     link: ""
@@ -27,7 +27,7 @@ const keys = [
 
 
   {
-    desc: "I also spend time building systems to automate daily tasks. I use recycled e-waste for some project materials to save the planet, and implement scripts with C.",
+    desc: "I also spend time building systems to automate tasks. I use recycled e-waste for some project materials, and implement scripts with C.",
     url: images.systems,
     type: "image"
   },
@@ -38,7 +38,7 @@ const keys = [
     type: "image"
   },
    {
-    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. ",
+    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion.",
     url: images.mimi,
     type: "image"
   },

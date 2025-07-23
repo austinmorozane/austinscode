@@ -54,7 +54,7 @@ export const Visualizer: React.FC = () => {
 <div className="fadeSide">
 
 
-          <p> Flashed an ESP32 microcontroller with <a href="https://kno.wled.ge/" rel="noopener noreferrer">WLED</a> and used a custom application, along with a 16x16 LED matrix to control effects. Wired for 9V operation.</p>
+          <p> Flashed an ESP32 microcontroller with <a href="https://kno.wled.ge/" rel="noopener noreferrer">WLED</a> and used a custom application, along with a 16x16 LED matrix to run effects. It can run for 3 days off of a 9v battery.</p>
 </div>     
 </div>
 <br/>

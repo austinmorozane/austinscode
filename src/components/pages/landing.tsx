@@ -1,71 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 
-import TagCloud from "TagCloud";
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import "../../css/TextSphere.css";
 import { NavBar } from "../common/navbar";
 import { Spinner } from '../common/symbols';
 
-const TextSphere: React.FC = () => {
-  const containerRef = useRef<HTMLSpanElement | null>(null);
-
-  useEffect(() => {
-    const container = containerRef.current;
-    const texts = [
-      "Code by me!",
-      "Typescript",
-      "Network Engineering",
-      "PHP",
-      "Go",
-      "Bash",
-      "Python",
-      "Flutter",
-      "React.JS",
-      "C++",
-      "Embedded Systems",
-      "Rust",
-      "Dart",
-      "C",
-      "Node.JS",
-      "Algorithm Analysis",
-      "Dynamic Programming",
-      "C#",
-      "X86 Assembly",
-      "Java",
-      "SQL",
-      "PHP",
-      "GraphQL",
-      "React Native",
-      "and more!.."
-    ];
-    const options = {
-      radius: 200,
-      keep: true,
-      loop: true,
-      lockX: true,
-      lockY: true,
-    };
-
-    if (container) {
-      TagCloud(container, texts, options);
-    }
-
-    return () => {
-      if (container) {
-        TagCloud(container, [], {});
-      }
-    };
-  }, []);
-
-  return (
-    <div className="text-sphere">
-      <b>
-        <span className="tagcloud" ref={containerRef}></span>
-      </b>
-    </div>
-  );
-};
 
 
 export const Landing: React.FC = () => {
@@ -116,7 +56,6 @@ export const Landing: React.FC = () => {
         </button>
         <br />
         
-        <TextSphere />
         <Spinner />
       </div >
     </>

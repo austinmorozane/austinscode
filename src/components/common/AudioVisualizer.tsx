@@ -125,7 +125,7 @@ lowpass.connect(analyser);
           border: '1px solid #0FF',
           borderRadius: '1.0vw',
           width: '70svw',
-          height: '45svh',
+          height: '55svh',
         }}
       />
       <br />

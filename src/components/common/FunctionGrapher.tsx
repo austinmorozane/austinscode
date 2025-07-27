@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Plot from "react-plotly.js";
 import { compile, range } from "mathjs";
 
-type Mode = "function" | "mandelbrot" | "tinkerbell";
+type Mode = "function" | "mandelbrot" ;
 
 export const FunctionGrapher: React.FC = () => {
   const [mode, setMode] = useState<Mode>("function");

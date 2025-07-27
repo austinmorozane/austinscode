@@ -37,7 +37,7 @@ const projectsData: Project[] = [
  title: "Calculator App (Flutter /C)",
     link: "https://github.com/austinmorozane/qwikCalculator",
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
-       media: [images.calculator],
+       media: [{}],
   }
 
  ];

@@ -98,7 +98,7 @@ export const NavBar: React.FC = () => {
                 <a href="https://www.linkedin.com/in/austin-h-15440a1b2/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} width={icon_width} height={icon_height}  alt="LinkedIn" />
                   <h3>
-                 Resume 
+                 Work 
                   </h3>
                 </a>
               </Button>

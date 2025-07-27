@@ -34,7 +34,7 @@ export const FunctionGrapher: React.FC = () => {
       yMax = 1.5;
     const width = 400;
     const height = 400;
-    const maxIter = 50;
+    const maxIter = 100;
 
     const xs: number[] = Array.from({ length: width }, (_, i) => xMin + ((xMax - xMin) * i) / width);
     const ys: number[] = Array.from({ length: height }, (_, j) => yMin + ((yMax - yMin) * j) / height);

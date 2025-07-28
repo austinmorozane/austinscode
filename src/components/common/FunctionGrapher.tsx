@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Plot from "react-plotly.js";
 import { compile, range } from "mathjs";
 
-type Mode = "function" | "mandelbrot" ;
+type Mode = "function" | "fractal" ;
 
 export const FunctionGrapher: React.FC = () => {
   const [mode, setMode] = useState<Mode>("function");
@@ -27,42 +27,7 @@ export const FunctionGrapher: React.FC = () => {
     }
   };
 
-  const drawMandelbrot = (): void => {
-    const xMin = -2,
-      xMax = 1,
-      yMin = -1.5,
-      yMax = 1.5;
-    const width = 400;
-    const height = 400;
-    const maxIter = 100;
 
-    const xs: number[] = Array.from({ length: width }, (_, i) => xMin + ((xMax - xMin) * i) / width);
-    const ys: number[] = Array.from({ length: height }, (_, j) => yMin + ((yMax - yMin) * j) / height);
-    const data: number[][] = [];
-
-    for (let j = 0; j < height; j++) {
-      const row: number[] = [];
-      for (let i = 0; i < width; i++) {
-        let x0 = xs[i];
-        let y0 = ys[j];
-        let x = 0,
-          y = 0,
-          iter = 0;
-        while (x * x + y * y <= 4 && iter < maxIter) {
-          const xtemp = x * x - y * y + x0;
-          y = 2 * x * y + y0;
-          x = xtemp;
-          iter++;
-        }
-        row.push(iter);
-      }
-      data.push(row);
-    }
-
-    setXValues(xs);
-    setYValues(ys);
-    setZValues(data);
-  };
 
 
 
@@ -70,8 +35,6 @@ export const FunctionGrapher: React.FC = () => {
     e.preventDefault();
     if (mode === "function") {
       drawFunction(expression);
-    } else if (mode === "mandelbrot") {
-      drawMandelbrot();
     } 
   };
 
@@ -102,7 +65,6 @@ export const FunctionGrapher: React.FC = () => {
             Mode:{" "}
             <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>
               <option value="function">Function</option>
-              <option value="mandelbrot">Mandelbrot Set</option>
             </select>
           </label>{" "}
           <br />
@@ -133,25 +95,18 @@ export const FunctionGrapher: React.FC = () => {
                   },
                 ]
               : [
-                  {
-                    z: zValues,
-                    type: "heatmap",
-                    colorscale: "Viridis",
-                    showscale: false,
-                  },
+                {} 
                 ]
           }
           layout={{
             title:
               mode === "function"
                 ? `Plot of f(x) = ${expression}`
-                : mode === "mandelbrot"
-                ? "Mandelbrot Set"
                 : " ",
             xaxis: { title: mode === "function" ? "x" : undefined },
             yaxis: { title: mode === "function" ? "f(x)" : undefined },
           }}
-          style={{ width: "80svw", height: "60svh" }}
+          style={{ width: "70svw", height: "60svh" }}
         />
       </div>
     </>

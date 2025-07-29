@@ -27,7 +27,7 @@ const keys = [
 
 
   {
-    desc: "I also spend time building systems to automate tasks. I use recycled e-waste for some project materials, and implement scripts with C.",
+    desc: "I also spend time building systems to automate daily tasks. I use recycled e-waste for some project materials, and implement scripts with C.",
     url: images.systems,
     type: "image"
   },
@@ -38,7 +38,7 @@ const keys = [
     type: "image"
   },
    {
-    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion.",
+    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. ",
     url: images.mimi,
     type: "image"
   },

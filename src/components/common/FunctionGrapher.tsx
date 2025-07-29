@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Plot from "react-plotly.js";
 import { compile, range } from "mathjs";
 
-type Mode = "function" | "fractal" ;
+type Mode = "function" ;
 
 export const FunctionGrapher: React.FC = () => {
   const [mode, setMode] = useState<Mode>("function");
@@ -26,9 +26,6 @@ export const FunctionGrapher: React.FC = () => {
       console.error(err);
     }
   };
-
-
-
 
 
   const handleSubmit = (e: React.FormEvent): void => {

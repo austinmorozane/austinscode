@@ -27,7 +27,6 @@ export const FunctionGrapher: React.FC = () => {
     }
   };
 
-
   const handleSubmit = (e: React.FormEvent): void => {
     e.preventDefault();
     if (mode === "function") {
@@ -42,7 +41,7 @@ export const FunctionGrapher: React.FC = () => {
       </a>
       <div className="projDesc">
         <div className="fadeSide">
-          <p>A function plotting engine to graph 2-d functions and <a rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mandelbrot_set">parametric fractals</a>using<a rel="noopener noreferrer" href="https://plotly.com/javascript/heatmaps/"> heatmap </a>.</p>
+          <p>A function plotting engine to graph 2-d functions. </p>
         </div>
       </div>
 

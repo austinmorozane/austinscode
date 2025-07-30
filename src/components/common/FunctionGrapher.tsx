@@ -57,6 +57,7 @@ export const FunctionGrapher: React.FC = () => {
         }}
       >
         <form onSubmit={handleSubmit}>
+          f
           <label>
             Mode:{" "}
             <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>

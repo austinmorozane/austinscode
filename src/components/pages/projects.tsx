@@ -23,6 +23,7 @@ interface ProjectItemProps {
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
 calculator: getImgPath('calculator.webp'),
+webCam: getImgPath('webCam.mp4')
 };
 
 const projectsData: Project[] = [
@@ -43,6 +44,12 @@ const projectsData: Project[] = [
     title: "Sine Wave Recorder (Angular/Typescript)",
     link: "https://wavplay.vercel.app/",
     description: " An audio recorder that translates the input frequency into a recorded sine wave representation of the input. Supports playback and storage.",
+    media: [{}],
+  },
+  {
+    title: "WebCam Interface (Typescript)",
+    link: "",
+    description: "A webcam interface that uses firebase and the FEAN stack to store video data in blob (MIME) format.",
     media: [{}],
   }
   

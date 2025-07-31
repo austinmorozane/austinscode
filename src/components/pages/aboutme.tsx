@@ -38,16 +38,12 @@ const keys = [
     type: "image"
   },
    {
-    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. ",
+    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. I could relax with them forever. ",
     url: images.mimi,
     type: "image"
-  },
-
-  {
-    desc: "I love to spend time out in nature!",
-    url: images.nature,
-    type: "image"
   }
+
+
 ];
 
 // Common styles for image and video components

@@ -41,7 +41,7 @@ export const Visualizer: React.FC = () => {
         <div className="analogCircuits" >
         <video autoPlay src={images.waterer} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
-        <img className="projImg" src={images.waterer2}/>
+        <img className="projImg" style={{maxHeight:'30svh'}}src={images.waterer2}/>
          </div>
 
 

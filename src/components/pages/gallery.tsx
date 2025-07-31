@@ -15,6 +15,7 @@ export const Visualizer: React.FC = () => {
     osc2: getImgPath('OSC2.webp'),
     sqr: getImgPath('Sqr.webp'),
     waterer: getImgPath('PLANT_KERNEL.mp4'),
+    waterer2: getImgPath('plantwaterer.jpg'),
     wall : getImgPath('WLED2.mp4'),
     ai: getImgPath('nano2.mp4')
   };
@@ -40,6 +41,7 @@ export const Visualizer: React.FC = () => {
         <div className="analogCircuits" >
         <video autoPlay src={images.waterer} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
+        <img className="projImg" src={images.waterer2}/>
          </div>
 
 

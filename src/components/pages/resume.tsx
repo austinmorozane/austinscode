@@ -127,7 +127,7 @@ const experienceItems = [
 <a href="https://www.formfactor.com/" rel="noopener noreferrer">FormFactor</a>. Contributed to development on FormFactor Cryo's IQ-3000 Spin-Qubit quantum computer system, supporting near-zero Kelvin operations. In meeting with Cryo team, drafted engineering decisions for system optimization. </>
 ),    },
     {
-   position: 'POS associate (The Outreach Team)',
+   position: 'Associate (The Outreach Team)',
    period:'Mar 2024 - April 2024',
    description: (
    <>

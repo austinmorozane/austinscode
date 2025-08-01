@@ -46,7 +46,7 @@ export const NavBar: React.FC = () => {
     <div>
     <Navbar className="custom-navbar">
       <div className="navbar-header ">
-        <NavbarBrand className="navBrand" id="name">Austin H</NavbarBrand>
+        <NavbarBrand className="navBrand" id="name">Austin Hutchen</NavbarBrand>
         <img className="clickIcon" height="62px" width="auto" src={clickme} />
         <CustomNavbarToggler onClick={toggle} isOpen={navOpen} />
       </div>

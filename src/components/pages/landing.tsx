@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import "../../css/TextSphere.css";
 import { NavBar } from "../common/navbar";
-import { Spinner } from '../common/symbols';
 
 
 
@@ -56,7 +55,6 @@ export const Landing: React.FC = () => {
         </button>
         <br />
         
-        <Spinner />
       </div >
     </>
   );

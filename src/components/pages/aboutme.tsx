@@ -9,9 +9,7 @@ const images: Images = {
   coding: getImgPath("coding.webp"),
   systems: getImgPath("systems.webp"),
   math: getImgPath("mathBook.webp"),
-  mimi: getImgPath("mimi.webp"),
-  solder: getImgPath("SOLDER.mp4"),
-  nature: getImgPath("nature.webp"),
+  solder: getImgPath("SOLDER.mp4")
 };
 
 
@@ -36,12 +34,7 @@ const keys = [
     desc: "I like to read mathematics from my collected library in my free time. I have particular interest in Calculus, and Set Theory.",
     url: images.math,
     type: "image"
-  },
-   {
-    desc: "I love spending time with my cats! Cats are the most calming pets to be around, in my opinion. I could relax with them forever. ",
-    url: images.mimi,
-    type: "image"
-  }
+  } 
 
 
 ];

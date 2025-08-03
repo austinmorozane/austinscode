@@ -101,27 +101,6 @@ export const Visualizer: React.FC = () => {
 
       </div>
       
-<br/>
-
-       <b>
-        <h2 className="hlight"> DUAL LINEAR POWER SUPPLY </h2>
-      </b>
-
-     <div className="projDesc">
-<div className="fadeSide">
-
-
-          <p> Built a linear power supply  using a 40VAC 2A center-tapped transformer and a diode-grid full-wave rectifier for +/-/ground DC voltage interfacing.
-          </p>
-</div>     
-</div>
-<br/>
-        <div className="analogCircuits" >
-        <img  id="rotate-90" style={{maxHeight:'40svh'}} src={images.schematic}  className="projImg" />
-        <img  src={images.bipolaroutput} className="projImg"/>
-        <img src={images.volts} className="projImg"/>
-        </div>
-
 
 
     </>

@@ -70,7 +70,7 @@ export const Visualizer: React.FC = () => {
         <div className="projDesc">
 <div className="fadeSide">
 
-          <p> Built my own 12-Volt 6MHZ Colpitts oscillator circuit with a <a href="https://github.com/austinhutchen/datasheets/blob/main/docs/CD40106BE.pdf" rel="noopener noreferrer"> Schmidt Trigger Inverter IC </a> and a 6.5MHZ quartz crystal. Thanks to the usage of a quartz crystal, the oscillator is highly precise, and can be used as a digital reference clock for other devices. It generates a true AC square wave with zero crossings, as shown below. 
+          <p> Built my own 12-Volt 6MHZ Colpitts oscillator circuit with a <a href="https://www.ti.com/document-viewer/CD40106B/datasheet" rel="noopener noreferrer"> Schmidt Trigger Inverter IC </a> and a 6.5MHZ quartz crystal. Thanks to the usage of a quartz crystal, the oscillator is highly precise, and can be used as a digital reference clock for other devices. It generates a true AC square wave with zero crossings, as shown below. 
           </p>
 </div>     
 </div>

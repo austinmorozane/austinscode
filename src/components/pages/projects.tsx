@@ -22,8 +22,7 @@ interface ProjectItemProps {
 
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
-calculator: getImgPath('calculator.webp'),
-webCam: getImgPath('webCam.mp4')
+calculator: getImgPath('calculator.webp')
 };
 
 const projectsData: Project[] = [
@@ -135,7 +134,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
       <div className="projDesc">
         <div className="fadeSide" style={{ margin: '0 auto'}}>
           <br />
-          <p>{project.description}</p>
+          <h4>{project.description}</h4>
       </div>
       </div>
     </div>

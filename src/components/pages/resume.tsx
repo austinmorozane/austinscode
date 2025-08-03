@@ -58,7 +58,8 @@ export const Feedback: React.FC = () => {
 export const Resume: React.FC = () => (
     <>
         <NavBar />
-
+              
+              
         <div className="resumePage mx-auto p-6 rounded-lg shadow-lg" >
 
             <ul className="projectdesc pt-1">

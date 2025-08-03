@@ -145,7 +145,7 @@ Worked directly with staff on <a rel="noopener noreferrer" href="https://www.the
     },
     {
         position: "Digital Marketing Consultant (Mobius Materials)",
-        period: "Summer 2021 - Fall 2021",
+        period: "Summer 2021",
         description: (
             <>
                 Led digital marketing campaigns leading to the first company sale. Analyzed google analytics traffic data, collaborated with software engineers and founder to meet reach targets. Authored research articles on e-waste, including{" "}

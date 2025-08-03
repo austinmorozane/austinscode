@@ -65,25 +65,6 @@ export const Visualizer: React.FC = () => {
          </div>
    <br/>
              <b>
-        <h1 className="hlight">  GESTURE + RGB SENSOR </h1>
-      </b>
-    <br/>
-         <div className="projDesc">
-<div className="fadeSide">
-
-             <p>Trained an ML model to detect colors and respond to gestures using the 3-axis gyroscope sensor of the IMU system on the <a rel="noopener noreferrer" href="https://docs.arduino.cc/resources/datasheets/ABX00071-datasheet.pdf">Arduino Nano 33 BLE Sense Rev2 </a> </p>
-</div>     
-</div>
-
-        <div className="analogCircuits" >
-        <video autoPlay src={images.ai} playsInline webkit-playsinline loop muted controls  className="projImg" >
-        </video>
-         </div>
-
-
-    <br/>
-
-         <b>
         <h1 className="hlight"> 6.5MHZ QUARTZ CRYSTAL OSCILLATOR (CD40106BE)</h1>
       </b>  
         <div className="projDesc">
@@ -102,7 +83,26 @@ export const Visualizer: React.FC = () => {
       </div>
       
 
+<br/>
+             <b>
+        <h1 className="hlight">  GESTURE + RGB SENSOR </h1>
+      </b>
+    <br/>
+         <div className="projDesc">
+<div className="fadeSide">
 
+             <p>Trained an ML model to detect colors and respond to gestures using the 3-axis gyroscope sensor of the IMU system on the <a rel="noopener noreferrer" href="https://docs.arduino.cc/resources/datasheets/ABX00071-datasheet.pdf">Arduino Nano 33 BLE Sense Rev2 </a> </p>
+</div>     
+</div>
+
+        <div className="analogCircuits" >
+        <video autoPlay src={images.ai} playsInline webkit-playsinline loop muted controls  className="projImg" >
+        </video>
+         </div>
+
+
+
+  
     </>
   );
 };

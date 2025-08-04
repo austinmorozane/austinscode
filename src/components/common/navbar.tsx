@@ -7,7 +7,7 @@ export const NavBar: React.FC = () => {
   const nav = useNavigate();
   const url = process.env.PUBLIC_URL;
   const github = `${url}/fast_imgs/github.png`;
-  const linkedin = `${url}/fast_imgs/LinkedIn.png`;
+  const linkedin = `${url}/fast_imgs/LinkedIN.png`;
   const facebook = `${url}/fast_imgs/Facebook.webp`;
   const home = `${url}/fast_imgs/home.png`;
   const about = `${url}/fast_imgs/about.png`;

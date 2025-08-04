@@ -38,7 +38,7 @@ const projectsData: Project[] = [
  title: "Calculator App (Flutter /C)",
     link: "https://github.com/austinmorozane/qwikCalculator",
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
-       media: [images.calculator],
+       media: [{ type: "image", src: images["calculator"] }],
   },
   {
     title: "Sine Wave Recorder (Angular/Typescript)",
@@ -50,12 +50,12 @@ const projectsData: Project[] = [
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",
     description: "A webcam interface that uses firebase and the FEAN stack to store video data in blob (MIME) format.",
-    media:  [images.webCam] ,
+    media:  [{ type: "video", src: images["webCam"]}] ,
   }
   
  ];
 const ProjectList: React.FC = () => (
-  <div >
+  <div className="projVid">
     {projectsData.map((project, index) => (
       <ProjectItem key={index} project={project} />
     ))}

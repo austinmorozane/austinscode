@@ -1,7 +1,7 @@
 {
 
  "compilerOptions": {
-    "jsx": "react-jsx", // For React 17+ with new JSX runtime
+   "jsx": "react-jsx+ react-dom",
     "target": "esnext",
     "module": "commonjs",
     "strict": true,

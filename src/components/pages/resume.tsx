@@ -167,7 +167,7 @@ Worked directly with staff on <a rel="noopener noreferrer" href="https://www.the
         period: "May 2018 - 2022",
         description: (
             <>
-                Sold and repaired Apple, Linux, and Windows devices, completing over 72 sales with 100% positive feedback, and $7,000 lifetime revenue. View my account{" "}
+                Sold and repaired Apple, Linux, and Windows devices, completing over 72 sales with 100% positive feedback. View my account{" "}
                 <a href="https://www.ebay.com/usr/gadgetsllcc" target="_blank" rel="noreferrer">
                     here
                 </a>.

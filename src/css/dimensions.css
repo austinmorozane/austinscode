@@ -51,7 +51,7 @@ max-width: 50svw;
   max-width: 50svw;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Enhanced drop shadow for depth */
 
-  max-height: 45svh;
+  max-height: 42svh;
   object-fit: cover; /* Ensures video fills the container */
   border: 0.10em solid #0BA;
   border-radius: 1vw;

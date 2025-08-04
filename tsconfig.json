@@ -11,6 +11,16 @@
     "moduleResolution": "esnext",
     "resolveJsonModule": true
   },
+  "optimization": {
+"minimizer":[
+	{
+		"name":"terser",
+		"options":{
+			"parallel": true
+		}
+	}
+]
+  },
 
   "include": [
     "src"

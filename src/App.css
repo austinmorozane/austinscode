@@ -31,11 +31,11 @@ background: conic-gradient(from 90deg, rgba(7, 68, 74, 1.000) 0.000deg, rgba(28,
 
 .introGlow h2{
     color: #FAF9F6; /* Slightly off-white for a softer look */
-  font-size: 1.3rem; /* Slightly larger font for readability */
+  font-size: 1.8rem; /* Slightly larger font for readability */
   text-align: center; /* Center-align text */
   font-family: 'Open Sans'; /* Clean, professional font */
-  font-weight: 600;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-weight: 1000;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 @media (max-width: 768px) {
   .introText {

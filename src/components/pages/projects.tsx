@@ -135,7 +135,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
       <div className="projDesc">
         <div className="fadeSide" style={{ margin: '0 auto'}}>
           <br />
-          <h4>{project.description}</h4>
+          <h3>{project.description}</h3>
       </div>
       </div>
     </div>

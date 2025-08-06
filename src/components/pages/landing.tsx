@@ -19,7 +19,7 @@ export const Landing: React.FC = () => {
   
         <div className="introText">
         <h2 className="hlight-mini">
-          <b>Welcome! I'm an Embedded Software Engineer and Computer Optimization Nerd.</b>
+          <b>Welcome! I'm a Software Engineer and Computer Optimization Nerd.</b>
         </h2>
 
           <div className="intro">

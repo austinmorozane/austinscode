@@ -179,7 +179,7 @@ Worked directly with staff on <a rel="noopener noreferrer" href="https://www.the
         period: "May 2022 - May 2025",
         description: (
             <>
-                Contributed to open-source projects, including many of my own IOT devices and X algorithm optimization. See my work{" "}
+                Contributed to open-source projects, including many of my own IOT devices. See my work{" "}
                 <a href="https://github.com/austinmorozane" target="_blank" rel="noopener noreferrer">
                     <b>
                         <i>

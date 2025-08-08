@@ -14,8 +14,7 @@ export const Visualizer: React.FC = () => {
     sqr: getImgPath('Sqr.webp'),
     waterer: getImgPath('PLANT_KERNEL.mp4'),
     waterer2: getImgPath('plantwaterer.jpg'),
-    wall : getImgPath('WLED2.mp4'),
-    ai: getImgPath('nano2.mp4')
+    wall : getImgPath('WLED2.mp4')
   };
 
   return (

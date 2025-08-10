@@ -40,12 +40,7 @@ const projectsData: Project[] = [
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
        media: [{ type: "image", src: images["calculator"] }],
   },
-  {
-    title: "Sine Wave Recorder (Angular/Typescript)",
-    link: "https://wavplay.vercel.app/",
-    description: " An audio recorder that translates the input frequency into a recorded sine wave representation of the input. Supports playback and storage.",
-    media: [{}],
-  },
+
   {
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",

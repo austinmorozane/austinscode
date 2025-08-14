@@ -83,7 +83,7 @@ export const Visualizer: React.FC = () => {
 
    <br/>
           <b>
-        <h1 className="hlight"> Arduino RGB + gesture sensor CLI engine </h1>
+        <h1 className="hlight"> Mini Arduino RGB + gesture sensor CLI engine </h1>
       </b>
       <br />
 

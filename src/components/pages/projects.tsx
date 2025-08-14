@@ -46,7 +46,7 @@ const projectsData: Project[] = [
   {
   title: "LevelQuest (C++)",
   link:"",
-  description:"A zelda clone I built in c++ with code I wrote, that functioned entirely inside a user's local terminal. It included several classes for pseudorandom enemy intelligence, multiple levels with bosses and prizes, and a cartesian map system that could be resized according to user input.",
+  description:"A zelda clone I built in c++, that functioned entirely inside a user's local terminal. It included several classes for pseudorandom enemy intelligence, multiple levels with bosses and prizes, and a cartesian map system that could be resized according to user input.",
   media: [{type:"image",src:images["zelda_1"]},
 {type:"image", src:images["zelda_3"]}
   ]

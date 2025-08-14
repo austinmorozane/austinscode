@@ -23,7 +23,10 @@ interface ProjectItemProps {
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
 calculator: getImgPath('calculator.webp'),
-  webCam: getImgPath('webCam.mp4')
+  webCam: getImgPath('webCam.mp4'),
+  zelda_1: getImgPath('zelda_1.png'),
+  zelda_2: getImgPath('zelda_2.png'),
+  zelda_3: getImgPath('zelda_3.png')
 };
 
 const projectsData: Project[] = [
@@ -40,7 +43,14 @@ const projectsData: Project[] = [
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
        media: [{ type: "image", src: images["calculator"] }],
   },
-
+  {
+  title: "LevelQuest (C++)",
+  link:"",
+  description:"A zelda clone I built in c++ with code I wrote, that functioned entirely inside a user's local terminal. It included several classes for pseudorandom enemy intelligence, multiple levels with bosses and prizes, and a cartesian map system that could be resized according to user input.",
+  media: [{type:"image",src:images["zelda_1"]},
+{type:"image", src:images["zelda_3"]}
+  ]
+  },
   {
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",

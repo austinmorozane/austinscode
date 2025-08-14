@@ -81,30 +81,6 @@ export const Visualizer: React.FC = () => {
 
       </div>
 
-   <br/>
-          <b>
-        <h1 className="hlight"> Mini Arduino RGB + gesture sensor CLI engine </h1>
-      </b>
-      <br />
-
-     <div className="projDesc">
-<div className="fadeSide">
-<p>
-A sensor system that I trained on the <a href="https://docs.arduino.cc/resources/pinouts/ABX00071-full-pinout.pdf">arduino nano rev2 </a>gyroscope, to respond to UP-DOWN-L-R, and log RGB colors in its proximity (as seen in video).
-</p>
-
-</div>     
-</div>
-        <div className="analogCircuits" >
-        <video autoPlay src={images.ai_1} style={{maxHeight:"35svh"}} playsInline webkit-playsinline loop muted controls  className="projImg" >
-        </video>
-              <video autoPlay src={images.ai_2} style={{maxHeight:"35svh"}} playsInline webkit-playsinline loop muted controls  className="projImg" >
-        </video>
-
-         </div>
-      
- 
-
 
   
     </>

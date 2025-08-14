@@ -96,9 +96,9 @@ A sensor system that I trained on the <a href="https://docs.arduino.cc/resources
 </div>     
 </div>
         <div className="analogCircuits" >
-        <video autoPlay src={images.ai_1} playsInline webkit-playsinline loop muted controls  className="projImg" >
+        <video autoPlay src={images.ai_1} style={{maxHeight:"35svh"}} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
-              <video autoPlay src={images.ai_2} playsInline webkit-playsinline loop muted controls  className="projImg" >
+              <video autoPlay src={images.ai_2} style={{maxHeight:"35svh"}} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
 
          </div>

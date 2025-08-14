@@ -8,7 +8,7 @@ type Mode = "function" ;
 
 export const FunctionGrapher: React.FC = () => {
   const [mode, setMode] = useState<Mode>("function");
-  const [expression, setExpression] = useState<string>("cos(x)");
+  const [expression, setExpression] = useState<string>("sin(e^(-x)^2)");
   const [xValues, setXValues] = useState<number[]>([]);
   const [yValues, setYValues] = useState<number[]>([]);
   const [zValues, setZValues] = useState<number[][]>([]);
@@ -57,7 +57,6 @@ export const FunctionGrapher: React.FC = () => {
         }}
       >
         <form onSubmit={handleSubmit}>
-          f
           <label>
             Mode:{" "}
             <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>

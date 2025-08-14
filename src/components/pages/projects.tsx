@@ -158,7 +158,7 @@ export const Projects: React.FC = () => {
      
       <ProjectList />
        <div className="fadeSide" style={{ margin: '0 auto', textShadow: "2px 2px 4px black" }}>
-             <h2 className="hlight"> <a href="https://github.com/austinhutchen/austinscode/tree/master/src/components/common" rel="noopener noreferrer">FM Sound Spectrum Analyzer </a> </h2>
+             <h2 className="hlight"> <a href="https://github.com/austinhutchen/austinscode/tree/master/src/components/common" rel="noopener noreferrer">FM Sound Spectrum Analyzer (TYPESCRIPT) </a> </h2>
         <br />
           <div className='projDesc'>
           <div className='fadeSide' style={{ margin: '0 auto'}}>

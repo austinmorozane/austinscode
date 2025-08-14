@@ -54,7 +54,7 @@ const projectsData: Project[] = [
   {
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",
-    description: "A webcam interface (like photobooth) that uses firebase and the FEAN stack to store video data in blob (MIME) format.",
+    description: "An asynchronous webcam interface (like photobooth) that used the FEAN stack to compress and store video data in blob format on a FireBase server.",
     media:  [{ type: "video", src: images["webCam"]}] ,
   }
   

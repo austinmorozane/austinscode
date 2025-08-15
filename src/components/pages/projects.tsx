@@ -43,21 +43,13 @@ const projectsData: Project[] = [
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
        media: [{ type: "image", src: images["calculator"] }],
   },
-  {
-  title: "LevelQuest (C++)",
-  link:"",
-  description:"A dungeon crawler I built in c++, that functioned entirely inside a user's local terminal. It included a class for pseudorandom enemy intelligence, multiple level designs with bosses and prizes, an inventory system, shop, and a cartesian map system that could be resized according to user input.",
-  media: [{type:"image",src:images["zelda_1"]},
-{type:"image", src:images["zelda_3"]}
-  ]
-  },
+
   {
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",
     description: "An asynchronous webcam interface (like photobooth) that used the FEAN stack to compress and store video data in blob format on a FireBase server.",
     media:  [{ type: "video", src: images["webCam"]}] ,
   }
-  
  ];
 const ProjectList: React.FC = () => (
   <div className="projVid">

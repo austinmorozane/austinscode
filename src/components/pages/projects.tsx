@@ -23,10 +23,7 @@ interface ProjectItemProps {
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
 calculator: getImgPath('calculator.webp'),
-  webCam: getImgPath('webCam.mp4'),
-  zelda_1: getImgPath('zelda_1.png'),
-  zelda_2: getImgPath('zelda_2.png'),
-  zelda_3: getImgPath('zelda_3.png')
+  webCam: getImgPath('webCam.mp4') 
 };
 
 const projectsData: Project[] = [
@@ -49,14 +46,6 @@ const projectsData: Project[] = [
     link: "https://github.com/austinmorozane/webCam",
     description: "An asynchronous webcam interface (like photobooth) that used the FEAN stack to compress and store video data in blob format on a FireBase server.",
     media:  [{ type: "video", src: images["webCam"]}] ,
-  },
-    {
-  title: "LevelQuest (C++)",
-  link:"",
-  description:"A dungeon crawler I built in c++, that functioned entirely inside a user's local terminal. It included a class for pseudorandom enemy intelligence, multiple level designs with bosses and prizes, an inventory system, shop, and a cartesian map system that could be resized according to user input.",
-  media: [{type:"image",src:images["zelda_1"]},
-{type:"image", src:images["zelda_3"]}
-  ]
   }
  ];
 const ProjectList: React.FC = () => (

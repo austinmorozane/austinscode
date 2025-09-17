@@ -25,13 +25,13 @@ const keys = [
 
 
   {
-    desc: "I also build systems to automate daily tasks. I use recycled e-waste for some project materials, and implement scripts with C.",
+    desc: "I use recycled e-waste for some project materials, and implement scripts with C.",
     url: images.systems,
     type: "image"
   },
 
   {
-    desc: "I enjoy reading mathematics from my collected library in my free time. I have particular interest in Calculus, Linear Algebra, and Set Theory.",
+    desc: "I sometimes read mathematics from my library in my free time. I am most interested in Calculus, Linear Algebra, and Set Theory.",
     url: images.math,
     type: "image"
   } 

@@ -6,7 +6,7 @@ export const NavBar: React.FC = () => {
   const [navOpen, setIsOpen] = useState(false);
   const nav = useNavigate();
   const url = process.env.PUBLIC_URL;
-  const github = `${url}/fast_imgs/github.webp`;
+  const github = `${url}/fast_imgs/github.png`;
   const linkedin = `${url}/fast_imgs/LinkedIn.png`;
   const facebook = `${url}/fast_imgs/Facebook.webp`;
   const home = `${url}/fast_imgs/home.png`;
@@ -86,7 +86,7 @@ export const NavBar: React.FC = () => {
             
          
           <NavItem className="nav-item  justify-center items-center">
-            <Button style={{ backgroundColor:'rgba(255,0,0,0.4)',border: '1px solid white' , borderRadius:'1.3svw' }}>
+            <Button style={{ backgroundColor:'rgba(255,0,0,0.4)',border: '1px solid white' , borderRadius:'2svw' }}>
               <a href="https://github.com/austinmorozane" target="_blank" rel="noopener noreferrer">
                 <img src={github} width={icon_width} height={icon_height} alt="GitHub" />
                 <h3>Programs</h3>

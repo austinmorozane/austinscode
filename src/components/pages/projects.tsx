@@ -31,7 +31,7 @@ const projectsData: Project[] = [
     title: "This Website (Typescript)",
     link: "https://github.com/austinhutchen/austinscode",
     description:
-      "This website is programmed from the ground up to be mobile-first, optimized to run well on any device with an internet connection! Click the title text for a link to the source code.",
+      "This website is programmed to be mobile-first, optimized to run well on any device with an internet connection! Click the title text for a link to the source code.",
     media: [{}],
   },
    {

@@ -43,7 +43,7 @@ const projectsData: Project[] = [
   },
   {
   title: "The Vibe Check (BootStrap / SQL / Typecript)",
-  link: "https://github.com/austinmorozane/TheVibeCheck",
+  link: "https://github.com/mali7617/thevibecheck",
   description: "A mapping engine that returns nearby locations based on your inputted mood. Uses modern technologies such as GoogleMaps Places API, SQL backend, Chrome Extension and Javascript. Working on a team, I helped design security for the SQL backend, optimized scripts and CSS animations for the frontend.",
   media: [{ type:"video",src:images["theVibeCheck_video"]}],
   },

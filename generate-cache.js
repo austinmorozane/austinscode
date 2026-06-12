@@ -9,7 +9,7 @@ const outputFile = path.join(__dirname, "public/assets-to-cache.json");
 function getFilesWithHash(directory, basePath) {
   return fs.existsSync(directory)
     ? fs.readdirSync(directory)
-        .filter(file => /\.(css|css\.map|png|jpg|jpeg|svg|gif|webp)$/i.test(file)) // Include images & CSS
+        .filter(file => /\.(css|css\.map|png|jpg|jpeg|svg|gif|webp|mp4)$/i.test(file)) // Include images & CSS
         .map((file) => {
           const filePath = path.join(directory, file);
           const hash = crypto.createHash("md5").update(fs.readFileSync(filePath)).digest("hex").slice(0, 8);

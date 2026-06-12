@@ -23,7 +23,8 @@ interface ProjectItemProps {
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
 calculator: getImgPath('calculator.webp'),
-  webCam: getImgPath('webCam.mp4') 
+  webCam: getImgPath('webCam.mp4'),
+  theVibeCheck_video: getImgPath('theVibeCheck_video.mp4')
 };
 
 const projectsData: Project[] = [
@@ -40,7 +41,12 @@ const projectsData: Project[] = [
     description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
        media: [{ type: "image", src: images["calculator"] }],
   },
-
+  {
+  title: "The Vibe Check (BootStrap / SQL / Typecript)",
+  link: "https://github.com/austinmorozane/TheVibeCheck",
+  description: "A mapping engine that returns nearby locations based on your inputted mood. Uses modern technologies such as GoogleMaps Places API, SQL backend, Chrome Extension and Javascript",
+  media: [{ type:"video",src:images["theVibeCheck_video"]}],
+  },
   {
     title: "WebCam Interface (Typescript)",
     link: "https://github.com/austinmorozane/webCam",

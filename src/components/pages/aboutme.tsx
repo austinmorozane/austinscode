@@ -34,7 +34,12 @@ const keys = [
     desc: "I sometimes read mathematics from my library in my free time. I am most interested in Calculus, Linear Algebra, and Set Theory.",
     url: images.math,
     type: "image"
-  } 
+  },
+  {
+    desc:"I enjoy building software. I have built several apps using various programming languages that I still use frequently, with more details viewable on my github and CV.",
+    url: images.coding,
+    type:"image"
+  }
 
 
 ];

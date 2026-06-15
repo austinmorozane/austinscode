@@ -24,7 +24,7 @@ export const Landing: React.FC = () => {
 
           <div className="intro">
               <h2>
-              As a  <a href="https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science" rel="noopener noreferrer">Computer Science student (BA 2027)</a> , I enjoy software development, building electronic circuits, IoT systems, and reading mathematics. I’ve also taught Calculus 2 through the <a href="https://www.colorado.edu/program/learningassistant/">Learning Assistant Program  </a> at the University of Colorado Boulder. Recently, I developed a proprietary
+              As a  <a href="https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science" rel="noopener noreferrer">Computer Science/Mathematics student (BS 2028)</a> , I enjoy software development, building electronic circuits, IoT systems, and reading mathematics. I’ve also taught Calculus 2 through the <a href="https://www.colorado.edu/program/learningassistant/">Learning Assistant Program  </a> at the University of Colorado Boulder. Recently, I developed a proprietary
               ModBus C#  implementation for <a href="https://www.formfactor.com"> FormFactor Boulder </a>, a cryogenic quantum computing solutions company. Proficient in TypeScript, C#, and C++, <a> I actively contribute to emerging open-source projects.</a>
             </h2>
           </div>

@@ -6,7 +6,6 @@ const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/$
 type Images = Record<string, string>;
 
 const images: Images = {
-  coding: getImgPath("coding.webp"),
   systems: getImgPath("systems.webp"),
   math: getImgPath("mathBook.webp"),
   solder: getImgPath("SOLDER.mp4")
@@ -34,12 +33,8 @@ const keys = [
     desc: "I sometimes read mathematics from my library in my free time. I am most interested in Calculus, Linear Algebra, and Set Theory.",
     url: images.math,
     type: "image"
-  },
-  {
-    desc:"I enjoy building software. I have built several apps using various programming languages that I still use frequently, with more details viewable on my github and CV.",
-    url: images.coding,
-    type:"image"
   }
+
 
 
 ];

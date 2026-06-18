@@ -26,7 +26,8 @@ calculator: getImgPath('calculator.webp'),
   webCam: getImgPath('webCam.mp4'),
   theVibeCheck_video: getImgPath('theVibeCheck_Video.mp4'),
   zelda_1: getImgPath("zelda_1.png"),
-  zelda_3: getImgPath("zelda_3.png")
+  zelda_3: getImgPath("zelda_3.png"),
+  calculator: getImgPath("calculator.webp")
 };
 
 const projectsData: Project[] = [

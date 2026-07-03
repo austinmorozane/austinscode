@@ -66,8 +66,8 @@ const projectsData: Project[] = [
   }
   ,{
     title: "CLI .txt Text Editor (C++)",
-    link: "https://github.com/austinmorozane/CLI_EDIT",
-    description: "A .txt text editor similar to vim that uses pointers and the C ifstream library for line-by-line editing, local file caching, and efficiency on any unix-based terminal.",
+    link: "https://github.com/austinmorozane/bijection",
+    description: "A shell interface similar to vim that uses pointers and the C ifstream library for line-by-line .txt editing, local file caching, and efficiency on any unix-based terminal. Supports (read,write,encrypt,decrypt,edit) algorithms, and was updated from an older version that relied on a more simplistic (read,write,clear) operation.",
     media:[
       {type:"image", src:images["CLI_EDIT"]}
     ]

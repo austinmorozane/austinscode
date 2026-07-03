@@ -65,7 +65,7 @@ const projectsData: Project[] = [
     ]
   }
   ,{
-    title: "CLI .txt Text Editor (C++)",
+    title: "Shell .txt Edit, Encrypt, Decrypt Engine (C++)",
     link: "https://github.com/austinmorozane/bijection",
     description: "A shell interface similar to vim that uses pointers and the C ifstream library for line-by-line .txt editing, local file caching, and efficiency on any unix-based terminal. Supports (read,write,encrypt,decrypt,edit) algorithms, and was updated from an older version that relied on a more simplistic (read,write,clear) operation.",
     media:[

@@ -110,20 +110,7 @@ export const Visualizer: React.FC = () => {
         <video autoPlay src={images.nano2}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
         <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>
- <b>
-        <h1 className="hlight"> +-12V AC-DC Power Supply</h1>
-      </b>  
-        <div className="projDesc">
-<div className="fadeSide">
-          <p> Built a power supply circuit to take 120V AC and step it down to a filtered +-12V DC, for use in an audio circuit.</p>
-</div>     
-</div>
-<br/>
-      <div className="analogCircuits">
-   <img loading="eager" src={images.transformer} className="projImg" />
-              <img loading="eager" src={images.output} className="projImg"  />
 
-              </div>
   
     </>
   );

@@ -18,7 +18,8 @@ export const Visualizer: React.FC = () => {
     wall_2 : getImgPath('matrix.mp4'),
     gesture: getImgPath('gesture.mp4'),
     nano2: getImgPath('nano2.mp4'),
-    clock: getImgPath('LED_CLOCK.mp4')
+    clock: getImgPath('LED_CLOCK.mp4'),
+    animate: getImgPath('animate.mp4')
   };
 
   return (
@@ -111,7 +112,16 @@ export const Visualizer: React.FC = () => {
         <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>
 
-  
+    <div className="projDesc">
+<div className="fadeSide">
+          <p> Flashed an arduino uno r3 circuit with a remote controller algorithm that allowed for several animations, and the controlling of an external LED on bredaboard. Ran several tests for accuracy and stability in different environments.</p>
+</div>     
+</div>
+<br/>
+      <div className="analogCircuits">
+        <video autoPlay src={images.animate}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
+      </div>
+
     </>
   );
 };

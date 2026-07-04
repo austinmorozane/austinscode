@@ -7,16 +7,18 @@ export const Visualizer: React.FC = () => {
   const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
   type Images = Record<string, string>;
   const images: Images = {
-    transformer: getImgPath('IMG_4393.webp'),
-    schematic: getImgPath('IMG_4052.webp'),
+    transformer: getImgPath('audiotransformer.JPG'),
+    output: getImgPath('bipolarPSUoutput.webp'),
     oscillator: getImgPath('OSC.webp'),
     osc2: getImgPath('OSC2.webp'),
     sqr: getImgPath('Sqr.webp'),
     waterer: getImgPath('PLANT_KERNEL.mp4'),
     waterer2: getImgPath('plantwaterer.jpg'),
     wall : getImgPath('WLED2.mp4'),
-    ai_1: getImgPath('gesture.mp4'),
-    ai_2: getImgPath('nano2.mp4')
+    wall_2 : getImgPath('matrix.mp4'),
+    gesture: getImgPath('gesture.mp4'),
+    nano2: getImgPath('nano2.mp4'),
+    clock: getImgPath('LED_CLOCK.mp4')
   };
 
   return (
@@ -61,6 +63,8 @@ export const Visualizer: React.FC = () => {
         <div className="analogCircuits" >
         <video autoPlay src={images.wall} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
+        <video autoPlay src={images.wall_2} playsInline webkit-playsinline loop muted controls className="projImg">
+        </video>
          </div>
       <br/>
                   <b>
@@ -80,8 +84,46 @@ export const Visualizer: React.FC = () => {
               <img loading="eager" src={images.sqr} className="projImg"  />
 
       </div>
+<b>
+        <h1 className="hlight"> UNO R4 LED CLOCK </h1>
+      </b>  
+        <div className="projDesc">
+<div className="fadeSide">
+          <p> Flashed an arduino uno R4 Minima circuit with a clock algorithm to run on a 12x8 LED matrix. Ran several tests for accuracy and stability in different environments.</p>
+</div>     
+</div>
+<br/>
+      <div className="analogCircuits">
+        <video autoPlay src={images.clock}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
+      </div>
 
+ <b>
+        <h1 className="hlight"> Portable Gesture, Movement, RGB Sensor (Uno Nano Rev2)</h1>
+      </b>  
+        <div className="projDesc">
+<div className="fadeSide">
+          <p> Flashed an arduino uno REV2 circuit with a color and movement sensor algorithm. Ran several tests for accuracy and stability in different environments.</p>
+</div>     
+</div>
+<br/>
+      <div className="analogCircuits">
+        <video autoPlay src={images.nano2}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
+        <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
+      </div>
+ <b>
+        <h1 className="hlight"> +-12V AC-DC Power Supply</h1>
+      </b>  
+        <div className="projDesc">
+<div className="fadeSide">
+          <p> Built a power supply circuit to take 120V AC and step it down to a filtered +-12V DC, for use in an audio circuit.</p>
+</div>     
+</div>
+<br/>
+      <div className="analogCircuits">
+   <img loading="eager" src={images.transformer} className="projImg" />
+              <img loading="eager" src={images.output} className="projImg"  />
 
+              </div>
   
     </>
   );

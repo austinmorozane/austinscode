@@ -111,7 +111,9 @@ export const Visualizer: React.FC = () => {
         <video autoPlay src={images.nano2}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
         <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>
-
+ <b>
+        <h1 className="hlight"> Remote Controlled Animation Display, Led Controller, and Memory Flasher (Arduino Uno Rev3)</h1>
+      </b>  
     <div className="projDesc">
 <div className="fadeSide">
           <p> Flashed an arduino uno r3 circuit with a remote controller algorithm that allowed for several animations, and the controlling of an external LED on bredaboard. Ran several tests for accuracy and stability in different environments.</p>

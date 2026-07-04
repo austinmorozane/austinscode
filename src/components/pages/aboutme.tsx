@@ -8,7 +8,8 @@ type Images = Record<string, string>;
 const images: Images = {
   systems: getImgPath("systems.webp"),
   math: getImgPath("mathBook.webp"),
-  solder: getImgPath("SOLDER.mp4")
+  solder: getImgPath("SOLDER.mp4"),
+  nature: getImgPath("nature.webp")
 };
 
 
@@ -32,6 +33,11 @@ const keys = [
   {
     desc: "I sometimes read mathematics from my library in my free time. I am most interested in Calculus, Linear Algebra, and Set Theory.",
     url: images.math,
+    type: "image"
+  },
+  {
+    desc: "I love spending time in nature!",
+    url: images.nature,
     type: "image"
   }
 

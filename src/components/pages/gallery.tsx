@@ -108,9 +108,9 @@ export const Visualizer: React.FC = () => {
 </div>     
 </div>
 <br/>
-      <div className="analogCircuits">
+      <div className="analogCircuits" style={{display:"block"}}>
         <img  src={images.weather}    className="projImg"></img>
-        <img src={images.weather_interface} className="projImg"></img>
+        <img src={images.weather_interface} style={{maxHeight:"33svh"}}className="projImg"></img>
       </div>
 
  <b>

@@ -20,7 +20,8 @@ export const Visualizer: React.FC = () => {
     nano2: getImgPath('nano2.mp4'),
     clock: getImgPath('LED_CLOCK.mp4'),
     animate: getImgPath('animate.mp4'),
-    weather: getImgPath('ESP_WEATHER.webp')
+    weather: getImgPath('ESP_WEATHER.webp'),
+    weather_interface: getImgPath('WEATHER.webp')
   };
 
   return (
@@ -103,12 +104,13 @@ export const Visualizer: React.FC = () => {
       </b>  
         <div className="projDesc">
 <div className="fadeSide">
-          <p> Flashed an ESP8266 circuit with a clock algorithm and 7-segment display writer to scale the variability of weather data from 1 ["Average"]- 8["Unusual"] from the circuit's DHT11 temperature and humidity sensor.  Ran several tests for accuracy and stability in different environments.</p>
+          <p> Flashed an ESP8266 circuit with a clock algorithm and 7-segment display writer to scale the variability of weather data from 1 ["Average"]- 8["Unusual"] from the circuit's DHT11 temperature and humidity sensor. I built a prototype mobile app using Typescript for the weather data that read directly from the ESP8266 over wifi. Ran several tests for accuracy and stability in different environments.</p>
 </div>     
 </div>
 <br/>
       <div className="analogCircuits">
         <img  src={images.weather}    className="projImg"></img>
+        <img src={images.weather_interface className="projImg"}></img>
       </div>
 
  <b>

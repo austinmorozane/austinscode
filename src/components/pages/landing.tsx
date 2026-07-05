@@ -11,7 +11,7 @@ export const Landing: React.FC = () => {
   const getImgPath = (imageName: string)=>`${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
   const nav = useNavigate();
   const github = getImgPath('github.png');
-  const linkedin = getImgPath('linkedIn.png');
+  const linkedin = getImgPath('LinkedIn.png');
   return (
     <>
 

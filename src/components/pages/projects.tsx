@@ -28,11 +28,10 @@ calculator: getImgPath('calculator.webp'),
   zelda_1: getImgPath("zelda_1.png"),
   zelda_2: getImgPath("game1.webp"),
   zelda_3: getImgPath("zelda_3.png"),
-  CLI_EDIT: getImgPath("CLI_EDIT.png"),
+  CLI_EDIT: getImgPath("CLI_EDIT.webp"),
   wavPlay: getImgPath('sinMic.mp4'),
-  eCommerce_1: getImgPath('statue.png'),
-  eCommerce_2: getImgPath('market.png'),
-  eCommerce_3: getImgPath('cart.png')
+  eCommerce_1: getImgPath('statue.webp'),
+  eCommerce_3: getImgPath('cart.webp')
 };
 
 const projectsData: Project[] = [

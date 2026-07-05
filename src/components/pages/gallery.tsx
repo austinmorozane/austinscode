@@ -110,7 +110,7 @@ export const Visualizer: React.FC = () => {
 <br/>
       <div className="analogCircuits">
         <img  src={images.weather}    className="projImg"></img>
-        <img src={images.weather_interface className="projImg"}></img>
+        <img src={images.weather_interface} className="projImg"}></img>
       </div>
 
  <b>

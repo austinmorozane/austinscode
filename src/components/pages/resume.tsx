@@ -4,7 +4,7 @@ const rec_letter = `${process.env.PUBLIC_URL}/fast_imgs/REC_LETTER.webp`;
 
 const inclusion = `${process.env.PUBLIC_URL}/fast_imgs/inclusion.webp`;
 const support = `${process.env.PUBLIC_URL}/fast_imgs/support.webp`;
-
+const resume = `${process.env.PUBLIC_URL}/fast_imgs/Austin_Hutchen_CV.pdf`;
 
 
 const ImageList: React.FC<{ images: string[] }> = ({ images }) => (
@@ -28,6 +28,7 @@ export const Feedback: React.FC = () => {
 
     return (
         <>
+      
             <div className="accreditations">
                 <div className='feedback'>
                     <h1 className="hlight"><b>~FEEDBACK~ </b></h1>
@@ -58,8 +59,9 @@ export const Resume: React.FC = () => (
     <>
         <NavBar />
               
-              
+            
         <div className="resumePage mx-auto p-6 rounded-lg shadow-lg" >
+<a className ="projectdesc pt-1" href={resume} rel="noopener noreferrer">Download Resume</a>
 
             <ul className="projectdesc pt-1">
                 {experienceItems.map((item, index) => (

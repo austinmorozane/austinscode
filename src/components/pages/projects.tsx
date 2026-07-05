@@ -29,7 +29,10 @@ calculator: getImgPath('calculator.webp'),
   zelda_2: getImgPath("game1.webp"),
   zelda_3: getImgPath("zelda_3.png"),
   CLI_EDIT: getImgPath("CLI_EDIT.png"),
-  wavPlay: getImgPath('sinMic.mp4')
+  wavPlay: getImgPath('sinMic.mp4'),
+  eCommerce_1: getImgPath('statue.png'),
+  eCommerce_2: getImgPath('market.png'),
+  eCommerce_3: getImgPath('cart.png')
 };
 
 const projectsData: Project[] = [
@@ -82,7 +85,17 @@ description: "An audio recording engine that records audio into a .wav file and 
     media:[
       {type:"image", src:images["CLI_EDIT"]}
     ]
+  },
+   {
+    title: "Ecommerce Website (Typescript)",
+    link: "https://github.com/austinmorozane/eMarket",
+    description: "An ecommerce website based on a wordPress original I built from scratch for a client with built-in layered SCSS animations,  mailChimp integration and support for purchases, add to cart, and more.",
+    media:[
+      {type:"image", src:images["eCommerce_1"]},
+      {type:"image", src:images["eCommerce_3"]}
+    ]
   }
+
  ];
 const ProjectList: React.FC = () => (
   <div className="projVid">

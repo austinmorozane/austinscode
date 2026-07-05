@@ -71,7 +71,7 @@ const projectsData: Project[] = [
 {
 title: "Audio Recorder, Compressor, and Storage Engine (Typescript)",
 link:"https://github.com/austinmorozane/wavPlay",
-description: "An audio recording engine that records audio into a .wav file, and then allows for further compression, decompression, or uploading to a FireBase server. Types are type-checked for stability and efficiency in noisy environments.",
+description: "An audio recording engine that records audio into a .wav file and then allows for further compression, decompression, or uploading to a FireBase server. Types are type-checked for stability and efficiency in noisy environments.",
     media:[{type:"video", src: images["wavPlay"]}
     ]
 },

@@ -42,10 +42,10 @@ export const Visualizer: React.FC = () => {
 </div>     
 </div>
 <br/>
-        <div className="analogCircuits" >
+        <div className="analogCircuits" style={{display:"flex", alignContent: "Center"}}>
         <video autoPlay src={images.waterer} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
-        <img className="projImg" style={{maxHeight:'30svh'}}src={images.waterer_2}/>
+        <img className="projImg" src={images.waterer_2}/>
          </div>
 
 
@@ -63,7 +63,7 @@ export const Visualizer: React.FC = () => {
 </div>     
 </div>
 <br/>
-        <div className="analogCircuits" >
+        <div className="analogCircuits" style={{display:"block"}}>
         <video autoPlay src={images.wall} playsInline webkit-playsinline loop muted controls  className="projImg" >
         </video>
         <video autoPlay src={images.wall_2} playsInline webkit-playsinline loop muted controls className="projImg">
@@ -81,9 +81,9 @@ export const Visualizer: React.FC = () => {
 </div>     
 </div>
 <br/>
-      <div className="analogCircuits">
+      <div className="analogCircuits" style={{display:"block"}}>
           <img loading="eager" src={images.oscillator} className="projImg" />
-        <img loading="eager" src={images.osc2} id="rotate-90"  className="projImg"  />
+        <img loading="eager" src={images.osc2} id="rotate-90"  style={{maxHeight:"30svh"}}className="projImg"  />
               <img loading="eager" src={images.sqr} className="projImg"  />
 
       </div>
@@ -122,7 +122,7 @@ export const Visualizer: React.FC = () => {
 </div>     
 </div>
 <br/>
-      <div className="analogCircuits">
+      <div className="analogCircuits" style={{display:"block"}}>
         <video autoPlay src={images.nano2}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
         <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>

@@ -8,9 +8,10 @@ import { NavBar } from "../common/navbar";
 
 
 export const Landing: React.FC = () => {
+  const getImgPath = (imageName: string)=>`${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
   const nav = useNavigate();
-  const github = process.env.PUBLIC_URL + '/fast_imgs/github.webp';
-  const intro = process.env.PUBLIC_URL + '/fast_imgs/nerdy.gif';
+  const github = getImgPath('github.png');
+  const linkedin = getImgPath('linkedIn.png');
   return (
     <>
 
@@ -53,9 +54,16 @@ export const Landing: React.FC = () => {
           Experience
           <HiArrowNarrowRight size={'0.8em'} className="ml-3" />
         </button>
-        <br />
-        
-      </div >
+        <div className="projImg" style={{display:"flex"}} >
+<a href="https://github.com/austinmorozane">
+        <img  style={{maxHeight: "4svh"}}src = {github}/>
+  </a>
+<a href="https://linkedin.com/in/austin-h-15440a1b2">
+          <img style={{maxHeight:"4svh"}} src={linkedin}/> 
+  </a>
+
+        </div>
+              </div >
     </>
   );
 };

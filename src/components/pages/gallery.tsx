@@ -19,7 +19,8 @@ export const Visualizer: React.FC = () => {
     gesture: getImgPath('gesture.mp4'),
     nano2: getImgPath('nano2.mp4'),
     clock: getImgPath('LED_CLOCK.mp4'),
-    animate: getImgPath('animate.mp4')
+    animate: getImgPath('animate.mp4'),
+    weather: getImgPath('ESP_WEATHER.webp')
   };
 
   return (
@@ -97,6 +98,18 @@ export const Visualizer: React.FC = () => {
       <div className="analogCircuits">
         <video autoPlay src={images.clock}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>
+<b>
+        <h1 className="hlight"> Weather Sensor Interface (ESP8266,7-Segment Display, DHT11 humidity sensor) </h1>
+      </b>  
+        <div className="projDesc">
+<div className="fadeSide">
+          <p> Flashed an ESP8266 circuit with a clock algorithm and 7-segment display writer to scale the variability of weather data from 1 ["Average"]- 8["Unusual"] from the circuit's DHT11 temperature and humidity sensor.  Ran several tests for accuracy and stability in different environments.</p>
+</div>     
+</div>
+<br/>
+      <div className="analogCircuits">
+        <img  src={images.weather}    className="projImg"></img>
+      </div>
 
  <b>
         <h1 className="hlight"> Portable Gesture, Movement, RGB Sensor (Uno Nano Rev2)</h1>
@@ -112,7 +125,7 @@ export const Visualizer: React.FC = () => {
         <video autoPlay src={images.gesture}  playsInline webkit-playsinline loop muted controls  className="projImg"></video>
       </div>
  <b>
-        <h1 className="hlight"> Remote Controlled Animation Display, Led Controller, and Memory Flasher (Arduino Uno Rev3)</h1>
+        <h1 className="hlight"> Remote Controlled Animation Display, Led Controller, and PROGMEM Flasher (Arduino Uno Rev3)</h1>
       </b>  
     <div className="projDesc">
 <div className="fadeSide">

@@ -26,8 +26,10 @@ calculator: getImgPath('calculator.webp'),
   webCam: getImgPath('webCam.mp4'),
   theVibeCheck_video: getImgPath('theVibeCheck_Video.mp4'),
   zelda_1: getImgPath("zelda_1.png"),
+  zelda_2: getImgPath("game1.webp"),
   zelda_3: getImgPath("zelda_3.png"),
-  CLI_EDIT: getImgPath("CLI_EDIT.png")
+  CLI_EDIT: getImgPath("CLI_EDIT.png"),
+  wavPlay: getImgPath('sinMic.mp4')
 };
 
 const projectsData: Project[] = [
@@ -61,10 +63,19 @@ const projectsData: Project[] = [
     description:"A terminal scroller based on the Zelda franchise, in which the player moves through maze-like settings to gather armor and meet UTF-8 enemies. Features color graphics and can be compiled on almost any computer. A later port is featured on my github, in which the game runs on a 16x2 LCD from an Arduino uno R3, and the player moves using a wired joystick and pointers.",
     media: [
       { type: "image", src:images["zelda_1"]},
+      {type: "image", src:images["zelda_2"]},
       {type:"image", src:images["zelda_3"]}
     ]
   }
-  ,{
+  ,
+{
+title: "Audio Recorder, Compressor, and Storage Engine (Typescript)",
+link:"https://github.com/austinmorozane/wavPlay",
+description: "An audio recording engine that records audio into a .wav file, and then allows for further compression, decompression, or uploading to a FireBase server. Types are type-checked for stability and efficiency in noisy environments.",
+    media:[{type:"video", src: images["wavPlay"]}
+    ]
+},
+  {
     title: "Shell .txt Edit, Encrypt, Decrypt Engine (C++)",
     link: "https://github.com/austinmorozane/bijection",
     description: "A shell interface similar to vim that uses pointers and the C ifstream library for line-by-line .txt editing, local file caching, and efficiency on any unix-based terminal. Supports (read,write,encrypt,decrypt,edit) algorithms, and was updated from an older version that relied on a more simplistic (read,write,clear) operation.",

@@ -131,7 +131,7 @@ export const Visualizer: React.FC = () => {
       </b>  
     <div className="projDesc">
 <div className="fadeSide">
-          <p> Flashed an arduino uno r3 circuit with a remote controller algorithm that allowed for several animations, and the controlling of an external LED on breadboard. Ran several tests for accuracy and stability in different environments.</p>
+          <p> Flashed an arduino uno r3 circuit with a remote controller algorithm that allowed for several animations, and the controlling of an external 7-Segment LED on breadboard. Ran several tests for accuracy and stability in different environments.</p>
 </div>     
 </div>
 <br/>

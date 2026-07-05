@@ -88,10 +88,10 @@ description: "An audio recording engine that records audio into a .wav file and 
    {
     title: "Ecommerce Website (Typescript)",
     link: "https://github.com/austinmorozane/eMarket",
-    description: "An ecommerce website based on a wordPress original I built from scratch for a client with built-in layered SCSS animations, full site transitions, mailChimp integration, support for purchases, add to cart, and more.",
+    description: "An ecommerce website based on a wordPress original I built from scratch for a client with built-in layered SCSS animations, full mobile/desktop site transitions, mailChimp integration, support for purchases, add to cart, and more.",
     media:[
       {type:"image", src:images["eCommerce_1"]},
-      {type:"image", src:images["eCommerce_3"]}
+      {type:"image", src:images["eCommerce_3"]} 
     ]
   }
 

@@ -190,8 +190,9 @@ export const Projects: React.FC = () => {
     return (
     <div>
       <NavBar />
-   
-
+     <a href="https://thevibecheck.onrender.com" rel="noopener noreferrer"> Vibe Check Application Demo </a> 
+      <br/>
+     <a href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
      
       <ProjectList />
        <div className="fadeSide" style={{ margin: '0 auto', textShadow: "2px 2px 4px black" }}>

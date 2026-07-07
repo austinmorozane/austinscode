@@ -190,10 +190,12 @@ export const Projects: React.FC = () => {
     return (
     <div>
       <NavBar />
-     <a href="https://thevibecheck.onrender.com" rel="noopener noreferrer"> Vibe Check Application Demo </a> 
-      <br/>
-     <a href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
-     
+      <div >
+ <a  className="projDesc"  href="https://thevibecheck.onrender.com" rel="noopener noreferrer"> Vibe Check Application Demo </a> 
+     <a  className="projDesc" href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
+
+      </div>
+         
       <ProjectList />
        <div className="fadeSide" style={{ margin: '0 auto', textShadow: "2px 2px 4px black" }}>
              <h2 className="hlight"> <a href="https://github.com/austinhutchen/austinscode/tree/master/src/components/common" rel="noopener noreferrer">FM Sound Spectrum Analyzer (Typescript) </a> </h2>

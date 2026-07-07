@@ -190,10 +190,12 @@ export const Projects: React.FC = () => {
     return (
     <div>
       <NavBar />
-      <div >
-     <a  className="projDesc" href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
-     <a className="projDesc" href="https://wavPlay.vercel.app" rel="noopener noreferrer">Audio Compressor Demo</a>
-    <a className="projDesc" href="https://thevibecheck.onrender.com" rel="noopener noreferrer">The Vibe Check Demo</a>
+      <div classname="projDesc ">
+     <a href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
+        <br/>
+     <a href="https://wavPlay.vercel.app" rel="noopener noreferrer">Audio Compressor Demo</a>
+        <br/>
+    <a href="https://thevibecheck.onrender.com" rel="noopener noreferrer">The Vibe Check Demo</a>
       </div>
          
       <ProjectList />

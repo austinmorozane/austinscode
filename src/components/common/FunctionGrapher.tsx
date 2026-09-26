@@ -4,8 +4,7 @@ import React, { useState } from "react";
 import Plot from "react-plotly.js";
 import { compile, range } from "mathjs";
 
-type Mode = "function" ;
-
+type Mode = "function" | "3D" ;
 export const FunctionGrapher: React.FC = () => {
   const [mode, setMode] = useState<Mode>("function");
   const [expression, setExpression] = useState<string>("sin(e^(-x)^2)");
@@ -18,9 +17,10 @@ export const FunctionGrapher: React.FC = () => {
       const expr = compile(exprText);
       const xs = range(-10, 10, 0.1).toArray() as number[];
       const ys = xs.map((x) => expr.evaluate({ x }));
+      const zs = range(-10,10,0.1).toArray() as number[];
       setXValues(xs);
       setYValues(ys);
-      setZValues([]);
+      setZValues(zs);
     } catch (err) {
       alert("Error in expression: " + err);
       console.error(err);
@@ -31,7 +31,23 @@ export const FunctionGrapher: React.FC = () => {
     e.preventDefault();
     if (mode === "function") {
       drawFunction(expression);
-    } 
+    }
+    else if (mode === "3D"){
+      draw3DFunction(expression);
+    }
+  };
+
+  const draw3DFunction = (exprText:string)=>{
+    try{
+      const expr= compile(exprText);
+      const xs = range(-10,0,10).toArray() as number[];
+      const ys = xs.map((x)=>expr.evaluate({x}));
+      const zs = range(-10,10,0.1).toArray() as number[];
+    }
+    catch (err){
+      alert("Error in expression: "+ err);
+      console.error(err);
+    }
   };
 
   return (
@@ -61,6 +77,7 @@ export const FunctionGrapher: React.FC = () => {
             Mode:{" "}
             <select value={mode} onChange={(e) => setMode(e.target.value as Mode)}>
               <option value="function">Function</option>
+              <option value ="3D">Draw3D</option>
             </select>
           </label>{" "}
           <br />
@@ -74,7 +91,20 @@ export const FunctionGrapher: React.FC = () => {
                 placeholder="e.g., sin(x) + x^2"
               />
             </label>
-          )}
+          )
+          }
+          {mode=="Draw3D"&&(
+          <label>
+          f(x,y)={" "}
+          <input
+           type="text"
+           value={expression}
+           onChange={(e)=>setExpression(e.target.value)}
+           placeholder="e.g. sin(y)+x^2"
+          />
+              </label>
+          ) 
+          }
           <button type="submit">Plot</button>
         </form>
 
@@ -91,7 +121,15 @@ export const FunctionGrapher: React.FC = () => {
                   },
                 ]
               : [
-                {} 
+                {
+                x: xValues,
+                y: yValues,
+                z: zValues,
+                type:"surface",
+                mode:"3D",
+                marker: {color: "red"},
+
+                }, 
                 ]
           }
           layout={{
@@ -101,6 +139,7 @@ export const FunctionGrapher: React.FC = () => {
                 : " ",
             xaxis: { title: mode === "function" ? "x" : undefined },
             yaxis: { title: mode === "function" ? "f(x)" : undefined },
+            zaxis: { title: mode === "3D" ? "f(x,y)" : undefined}
           }}
           style={{ width: "70svw", height: "60svh" }}
         />

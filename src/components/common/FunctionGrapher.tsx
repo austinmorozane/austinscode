@@ -127,8 +127,7 @@ export const FunctionGrapher: React.FC = () => {
                 z: zValues,
                 type:"surface",
                 mode:"3D",
-                marker: {color: "red"},
-
+                marker: {color: "red"}
                 }, 
                 ]
           }
@@ -139,7 +138,6 @@ export const FunctionGrapher: React.FC = () => {
                 : " ",
             xaxis: { title: mode === "function" ? "x" : undefined },
             yaxis: { title: mode === "function" ? "f(x)" : undefined },
-            zaxis: { title: mode === "3D" ? "f(x,y)" : undefined}
           }}
           style={{ width: "70svw", height: "60svh" }}
         />

@@ -23,7 +23,6 @@ interface ProjectItemProps {
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
 calculator: getImgPath('calculator.webp'),
-  webCam: getImgPath('webCam.mp4'),
   theVibeCheck_video: getImgPath('theVibeCheck_Video.mp4'),
   zelda_1: getImgPath("zelda_1.png"),
   zelda_2: getImgPath("game1.webp"),
@@ -53,13 +52,8 @@ const projectsData: Project[] = [
   link: "https://github.com/mali7617/thevibecheck",
   description: "A mapping engine that returns nearby locations based on your inputted mood. Uses modern technologies such as GoogleMaps Places API, SQL backend, Chrome Extension and Javascript. Working on a team, I helped design security for the SQL backend, optimized scripts and CSS animations for the frontend.",
   media: [{ type:"video",src:images["theVibeCheck_video"]}],
-  },
-  {
-    title: "WebCam Interface (Typescript)",
-    link: "https://github.com/austinmorozane/webCam",
-    description: "An asynchronous webcam interface (like photobooth) that used the FEAN stack to compress and store video data in blob format on a FireBase server.",
-    media:  [{ type: "video", src: images["webCam"]}] ,
-  },{
+  }
+  ,{
     title: "Terminal Scroller (C++)",
     link: "https://github.com/austinmorozane/levelQuest",
     description:"A terminal scroller based on the Zelda franchise, in which the player moves through maze-like settings to gather armor and meet UTF-8 enemies. Features color graphics and can be compiled on almost any computer. A later port is featured on my github, in which the game runs on a 16x2 LCD from an Arduino uno R3, and the player moves using a wired joystick and pointers.",

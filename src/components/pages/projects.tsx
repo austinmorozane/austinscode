@@ -62,15 +62,7 @@ const projectsData: Project[] = [
       {type: "image", src:images["zelda_2"]},
       {type:"image", src:images["zelda_3"]}
     ]
-  }
-  ,
-{
-title: "Audio Recorder, Compressor, and Storage Engine (Typescript)",
-link:"https://github.com/austinmorozane/wavPlay",
-description: "An audio recording engine that records audio into a .wav file and then allows for further compression, decompression, or uploading to a FireBase server. Types are type-checked for stability and efficiency in noisy environments.",
-    media:[{type:"video", src: images["wavPlay"]}
-    ]
-},
+  },
   {
     title: "Shell .txt Edit, Encrypt, Decrypt Engine (C++)",
     link: "https://github.com/austinmorozane/bijection",
@@ -187,8 +179,7 @@ export const Projects: React.FC = () => {
       <div classname="projDesc ">
      <a href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
         <br/>
-     <a href="https://wavPlay.vercel.app" rel="noopener noreferrer">Audio Compressor Demo</a>
-        <br/>
+ 
     <a href="https://thevibecheck.onrender.com" rel="noopener noreferrer">The Vibe Check Demo</a>
       </div>
          

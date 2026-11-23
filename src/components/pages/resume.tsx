@@ -61,7 +61,7 @@ export const Resume: React.FC = () => (
               
             
         <div className="resumePage mx-auto p-6 rounded-lg shadow-lg" >
-<a className ="projectdesc pt-1" href={resume} rel="noopener noreferrer">Download Resume</a>
+<a className ="projectdesc pt-1" href={resume} rel="noopener noreferrer">Full Resume</a>
 
             <ul className="projectdesc pt-1">
                 {experienceItems.map((item, index) => (

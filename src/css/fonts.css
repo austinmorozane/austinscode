@@ -21,26 +21,26 @@
 h4,
 h3 {
   text-shadow: 2px 2px 3px rgba(0.8, 0.8, 0.8, 0.9);
-  font-size: 1em;
+  font-size: 2em;
 }
 
 
 .intro {
-  margin-top: 0.6em;
+  margin-top: 2em;
   color: #F3ECEC;
   /* Lighter color for better contrast against purple */
   /* Use rem units for your font sizes */
   text-align: center;
   display: inline;
   align-items: center;
-  text-shadow: gold 3px 3px 5px;
+  text-shadow: gold 3px 3px 7px;
   /* Dark text shadow for contrast */
   /* Adjusted text-shadow for better readability */
 }
 
 .intro h2,
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-kerning: normal;
   max-width: 100%;
   margin: 0 auto;

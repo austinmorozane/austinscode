@@ -22,11 +22,9 @@ interface ProjectItemProps {
 
 const getImgPath = (imageName: string) => `${process.env.PUBLIC_URL}/fast_imgs/${imageName}`;
 const images: Images = {
+  systems: getImgPath('systems.webp'),
 calculator: getImgPath('calculator.webp'),
   theVibeCheck_video: getImgPath('theVibeCheck_Video.mp4'),
-  zelda_1: getImgPath("zelda_1.png"),
-  zelda_2: getImgPath("game1.webp"),
-  zelda_3: getImgPath("zelda_3.png"),
   CLI_EDIT: getImgPath("CLI_EDIT.webp"),
   wavPlay: getImgPath('sinMic.mp4'),
   eCommerce_1: getImgPath('statue.webp'),
@@ -45,24 +43,16 @@ const projectsData: Project[] = [
    {
  title: "Calculator App (Flutter /C)",
     link: "https://github.com/austinmorozane/qwikCalculator",
-    description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial.",
-       media: [{ type: "image", src: images["calculator"] }],
+    description: "A calculator app, programmed by me in C using the Dart/Flutter Framework. Has custom functions for transcendental operations including sine,cosine, and factorial. Used circuitry and memory data from a 3.3V Ti-30XIIS to implement efficient computation of functions on low-powered hardware.",
+       media: [{ type: "image", src: images["calculator"] },
+      {type:"image",src:images["systems"]}
+    ],
   },
   {
   title: "The Vibe Check (BootStrap / SQL / Typecript)",
   link: "https://github.com/mali7617/thevibecheck",
   description: "A mapping engine that returns nearby locations based on your inputted mood. Uses modern technologies such as GoogleMaps Places API, SQL backend, Chrome Extension and Javascript. Working on a team, I helped design security for the SQL backend, optimized scripts and CSS animations for the frontend.",
   media: [{ type:"video",src:images["theVibeCheck_video"]}],
-  }
-  ,{
-    title: "Terminal Scroller (C++)",
-    link: "https://github.com/austinmorozane/levelQuest",
-    description:"A terminal scroller based on the Zelda franchise, in which the player moves through maze-like settings to gather armor and meet UTF-8 enemies. Features color graphics and can be compiled on almost any computer. A later port is featured on my github, in which the game runs on a 16x2 LCD from an Arduino uno R3, and the player moves using a wired joystick and pointers.",
-    media: [
-      { type: "image", src:images["zelda_1"]},
-      {type: "image", src:images["zelda_2"]},
-      {type:"image", src:images["zelda_3"]}
-    ]
   },
   {
     title: "Shell .txt Edit, Encrypt, Decrypt Engine (C++)",
@@ -189,7 +179,6 @@ export const Projects: React.FC = () => {
      <a href="https://dlor.vercel.app" rel="noopener noreferrer"> dLor App Demo </a>
         <br/>
  
-    <a href="https://thevibecheck.onrender.com" rel="noopener noreferrer">The Vibe Check Demo</a>
       </div>
          
       <ProjectList />

@@ -1,6 +1,6 @@
 {
   "name": "austinscode",
-  "version": "4.0.0",
+  "version": "20.0.0",
   "homepage": "https://austinmorozane.github.io/austinscode/",
   "private": false,
   "dependencies": {
@@ -40,8 +40,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "generate-cache": "node generate-cache.js",
-    "build": "react-scripts build && npm run generate-cache",
+    "build": "react-scripts build",
     "analyze": "node analyzer.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -63,6 +62,6 @@
     ]
   },
   "description": "My React-loaded website, documenting personal achievements! Original Author: Me! (Austin Morozane Hutchen).",
-  "author": "Austin Morozane https://github.com/austinhutchen",
+  "author": "Austin Morozane https://github.com/austinmorozane",
   "license": "ISC"
 }
